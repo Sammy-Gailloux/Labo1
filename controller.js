@@ -2,6 +2,8 @@ const url = require('url');
 const queryString = require('query-string');
 const math = require('mathjs');
 
+//lien glitch: https://playful-oceanic-dream.glitch.me/
+
 function getQueryStringParams(url) {
     if (url.indexOf('?') > -1) {
         let query = url.substring(url.indexOf('?'), url.length);
